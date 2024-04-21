@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS & JS Functionalities for the 2-player game -->
+  <script type="text/javascript" src="/backend/tictactoe1.js"></script>
+  <link rel="stylesheet" href="/design/twoplayers.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <!-- Head Content -->
+  <title>Tic Tac Toe</title>
+  <link rel="icon" href="/images/favicon.svg" alt="techis">
+</head>
+
+<body>
+  <div id="topnav">
+    <h1 class="header">
+      <img class="icon" src="/images/icon1-1.svg" alt="icon" height="60" width="60">
+      <b><span class="font-primary">T</span>ic</b>
+      <b><span class="font-primary">T</span>ac</b>
+      <b><span class="font-primary">T</span>oe</b>
+    </h1>
+  </div>
+
+  <section id="menu">
+    <a href="/index.html" style="--clr:#33cccc">
+      <span class="font-primary"><b>Home</b></span>
+      <i></i>
+    </a>
+
+    <a href="/essay.html" style="--clr:#33cccc">
+      <span class="font-primary"><b>Essay</b></span>
+      <i></i>
+    </a>
+  </section>
+
+  <section id="checkbox">
+    <main class="background">
+      <section class="display">
+        Player <span class="display-player playerX">X</span>'s turn
+      </section>
+
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+
+      <section class="display announcer hide"></section>
+
+      <section class="controls">
+        <button id="reset">Replay</button>
+      </section>
+
+      <h2>Try my other game versions:</h2>
+      <section id="menu">
+        <a href="oneplayer.html" style="--clr:#33cccc">
+          <span class="font-primary"><b>1 Player</b></span>
+          <i></i>
+        </a>
+
+        <a href="dragndrop.html" style="--clr:#33cccc">
+          <span class="font-primary"><b>Drag n Drop</b></span>
+          <i></i>
+        </a>
+      </section>
+    </main>
+  </section>
+</body>
+
+</html>

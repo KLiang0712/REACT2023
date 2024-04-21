@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  background-color: #EBF9F8;
+}
+
+.name,
+.theme {
+  text-align: center;
+  margin-left: 60px;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #33CCCC;
+}
+
+#card-essay {
+  background-color: #ebf9f8;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  border: 4px solid #33CCCC;
+  margin-left: 60px;
+}
+
+#aces-icon {
+  text-decoration: none;
+  margin-left: 100px;
+  width: 80px;
+  height: 80px;
+  border: 4px solid #33CCCC;
+}
+
+/* ACES */
+section #about,
+#content,
+#edux,
+#skills {
+  margin: auto;
+  width: 100%;
+}
+
+#about p,
+h1 {
+  margin-left: 60px;
+}
+
+#about .github,
+.email,
+.linkedin {
+  text-decoration: none;
+  padding-right: 40px;
+  margin-left: 60px;
+}
+
+#content .card {
+  border: 5px solid #33CCCC;
+  font-weight: bold;
+  width: 500px;
+}
+
+#content .content-icons {
+  flex-direction: row;
+}
+
+#content #card-link1,
+#card-link2 {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  background-color: #EBF9F8;
+  border: 4px solid #33CCCC;
+  margin-left: 20px;
+}
+
+#content .repository,
+.website {
+  font-weight: bold;
+  margin-left: 60px;
+  font-size: 15px;
+  width: 450px;
+  border: 5px solid #33CCCC;
+}
+
+#edux .school,
+.bootcamp {
+  border: 4px solid #33CCCC;
+  width: 400px;
+  margin-left: 60px;
+}
+
+#skills1-1 {
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #EBF9F8;
+  color: turquoise;
+  font-weight: bold;
+}
+
+h2 span {
+  color: black;
+}
+
+.square_circle {
+  border-radius: 50%;
+}

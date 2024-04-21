@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset=utf-8>
+  <!-- X-UA-Compatible implementation -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link type="text/css" rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </script>
+
+  <!-- Head Content -->
+  <title>Tic Tac Toe</title>
+  <link href="design/styles.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="images/favicon.svg" alt="techis">
+</head>
+
+<body>
+  <section id="home">
+    <div id="topnav">
+      <h1 class="header">
+        <img class="banner" src="images/icon1-1.svg" alt="banner" height="60" width="60">
+        <b><span class="font-primary">T</span>ic</b>
+        <b><span class="font-primary">T</span>ac</b>
+        <b><span class="font-primary">T</span>oe</b>
+      </h1>
+    </div>
+    <br><br>
+
+    <h1 class="name">
+      <span class="font-primary"><b>K</b></span><b>ory</b>
+      <span class="font-primary"><b>L</b></span><b>iang</b>
+    </h1>
+    <center>
+      <img class="square_circle" src="images/kl0712.jpg" alt="icon" height="300" width="300">
+    </center>
+    <h1 class="theme">
+      <span class="font-primary"><b>T</b></span><b>ic</b>
+      <span class="font-primary"><b>T</b></span><b>ac</b>
+      <span class="font-primary"><b>T</b></span><b>oe</b><br>
+      <span class="font-primary"><b>G</b></span><b>ame</b>
+      <span class="font-primary"><b>P</b></span><b>ackage</b>
+    </h1>
+    <br><br>
+
+    <a href=#about>
+      <img src="images/aces/about.svg" id="aces-icon" alt="about">
+    </a>
+
+    <a href=#content>
+      <img src="images/aces/contact.svg" id="aces-icon" alt="contact">
+    </a>
+
+    <a href=#edux>
+      <img src="images/aces/education.svg" id="aces-icon" alt="edux">
+    </a>
+
+    <a href=#skills>
+      <img src="images/aces/skills.svg" id="aces-icon" alt="skills">
+    </a>
+  </section>
+
+  <br>
+
+  <!-- About -->
+  <section id="about">
+    <h2><span class="font-primary"><b>A</b></span><b>bout</b></h2>
+
+    <h1 class="profile">
+      <span class="font-primary"><b>C</b></span><b>ontact</b>
+    </h1>
+    <div class="contact-icons">
+      <a href="mailto:kory.liang@outlook.com" class='email' ?subject=Feedback&body="Message" target="_blank">
+        <span style='font-size: 70px; border: 5px solid #33CCCC;'>&#128231;</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/kory-liang" class='linkedin' target="_blank">
+        <img src="images/edux/linkedin0712.svg" alt="LinkedIn"
+          style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+      </a>
+
+      <a href="https://github.com/KLiang0712" class='github' target="_blank">
+        <img src="images/edux/github0712.svg" alt="GitHub"
+          style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+      </a>
+    </div>
+    <br>
+    <br>
+    <h1 class="profile">
+      <span class="font-primary"><b>P</b></span><b>roject</b>
+    </h1>
+    <p style="font-size:16px;">
+      Tic Tac Toe is a popular Classic Game for centuries and is known for its strong versatility.
+      <br>It may be played anywhere at any time and anything involving doing free artwork may be used to play the game.
+      <br>Easily, we can approach playing this game simply by using chalk on chalkboard or street paths such as
+      sidewalks, paper, or hand sketching in dirt or sand.
+      <br>The game is welcome for everyone to play including children as young as age 3 (University of Northern Iowa).
+      <br>Tic Tac Toe seems like an easy game that is straight forward, but it really is not that simple given we must
+      practice a lot of skills where we plan ahead.
+      <br>It is a game where we practice making predictions based on probability.
+      <br>Furthermore, we predict the probability that the action from the person we are playing against may take
+      place.<br>The game is set up with a 3x3 square grid and players X and O traditionally (Exploratorium (Explore), n.
+      d.).
+    </p>
+
+    <p>For more information, come check out my essay:</p>
+    <a href="essay.html" class="btn btn-primary" id="card-essay">Essay</a>
+  </section>
+
+  <br>
+  <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links -->
+
+  <section id="content">
+    <h2><span class="font-primary"><b>C</b></span><b>ontent</b></h2>
+    <!-- Exhibit -->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="repository">
+          <div class="cardtheme" style="margin-left: 150px;">
+            <img src="images/edux/portfolio.svg" class="card-img-top" alt="project" style="width:100px; height:100px;">
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title"><b>Tic Tac Toe Repository</b></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><b>Available Download on GitHub :)</b></h6>
+            <a href="https://github.com/KLiang0712/TICTACTOE0712" target="_blank" class="btn btn-primary"
+              id="repository" style="background-color: gray; font-weight: bold;">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="website">
+          <div class="cardtheme" style="margin-left: 150px;">
+            <img src="images/edux/wireframe.svg" class="card-img-top" alt="project" style="width:100px; height:100px;">
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title"><b>Explore My Project!</b></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><b>Tic Tac Toe</b></h6>
+            <a href="exhibit/oneplayer.html" class="btn btn-primary" id="card-link1">1 player</a>
+            <a href="exhibit/checkbox.html" class="btn btn-primary" id="card-link2">Check Box</a>
+            <a href="exhibit/dragndrop.html" class="btn btn-primary" id="card-link2">Drag n Drop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+
+  <section id="edux">
+    <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#using-grid-markup -->
+    <h2><span class="font-primary"><b>E</b></span><b>ducation</b></h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="school">
+          <img src="images/edux/school.svg" class="card-img-top" alt="college" style="width:100px; height:100px;">
+          <div class="card-body">
+            <b>
+              <h5 class="card-title" style="font-weight: bold;">Rasmussen University</h5>
+              <p class="card-text">Bachelor's of Science in Computer Science<br>August 2018 - September 2020</p>
+            </b>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="bootcamp">
+          <img src="images/bootcamp.png" class="card-img-top" alt="techis" style="width:100px; height:100px;">
+          <div class="card-body">
+            <b>
+              <h5 class="card-title" style="font-weight: bold;">TECH I.S. Bootcamp</h5>
+              <p class="card-text">Program: Web Development<br>December 2022</p>
+            </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+  <section id="skills">
+    <h2><span class="font-primary"><b>S</b></span><b>kills</b></h2>
+    <h6>
+      <img src="images/skills/html5.svg" class="card-img-top" id="skills1-1" alt="html5">
+
+      <img src="images/skills/css3.svg" class="card-img-top" id="skills1-1" alt="css3">
+
+      <img src="images/skills/javascript.svg" class="card-img-top" id="skills1-1" alt="js">
+
+      <img src="images/skills/bootstrap.svg" class="card-img-top" id="skills1-1" alt="bootstrap">
+
+      <img src="images/skills/link-cdnjs.svg" class="card-img-top" id="skills1-1" alt="cdnjs">
+    </h6>
+  </section>
+
+  <br>
+  <br>
+</body>
+
+</html>
