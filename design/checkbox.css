@@ -1,0 +1,96 @@
+/* checkbox */
+*,
+html,
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  font-family: Arial;
+  background-color: #EBF9F8;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#topnav h1 {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.background {
+  height: 800px;
+  padding-top: 1px;
+}
+
+.title h1 {
+  color: black;
+  background-color: #EBF9F8;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #33CCCC;
+}
+
+.display {
+  color: #33CCCC;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+}
+
+.tile {
+  border: 5px solid #33CCCC;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.playerX,
+.playerO {
+  font-weight: bold;
+  color: #33CCCC;
+}
+
+#reset {
+  color: black;
+  background-color: #EBF9F8;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  float: center;
+  margin-left: 50%;
+  width: 120px;
+  padding: 10px;
+  border: 5px solid #33cccc;
+}

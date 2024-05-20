@@ -1,3 +1,4 @@
+*,
 body {
   font-family: Arial;
   font-weight: bold;
@@ -6,18 +7,42 @@ body {
 }
 
 #topnav {
+  font-family: Arial;
   background-color: #EBF9F8;
+}
+
+#topnav h1 {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.essaypage {
+  float: left;
+  width: 200px;
+  margin-left: 60px;
+  font-weight: bold;
+  background-color: #ebf9f8;
+  border: 5px solid #33CCCC;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+
 }
 
 .name,
 .theme {
   text-align: center;
-  margin-left: 60px;
+  margin-right: 160px;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 h1 span {
   font-weight: bold;
-  color: #33CCCC;
+  color: #33cccc;
 }
 
 #card-essay {
@@ -55,22 +80,43 @@ h1 {
 .email,
 .linkedin {
   text-decoration: none;
-  padding-right: 40px;
   margin-left: 60px;
 }
 
 #content .card {
-  border: 5px solid #33CCCC;
+  border: 5px solid #33cccc;
   font-weight: bold;
   width: 500px;
+  margin-left: 30px;
 }
 
 #content .content-icons {
   flex-direction: row;
 }
 
+#content .repository,
+.website {
+  color: black;
+  font-size: 16px;
+  border: 4px solid #33cccc;
+  font-weight: bold;
+  width: 400px;
+  margin-left: 60px;
+}
+
+#content .repository h5,
+h6 {
+  margin-left: 20px;
+}
+
+#content .website h5,
+h6 {
+  margin-left: 20px;
+}
+
 #content #card-link1,
-#card-link2 {
+#card-link2,
+#card-link3 {
   font-weight: bold;
   font-size: 16px;
   color: black;
@@ -83,15 +129,26 @@ h1 {
 .website {
   font-weight: bold;
   margin-left: 60px;
-  font-size: 15px;
-  width: 450px;
-  border: 5px solid #33CCCC;
+  font-size: 16px;
+  width: 400px;
+  height: 280px;
+  border: 4px solid #33CCCC;
+}
+
+#content #exploration1,
+#essay1 {
+  font-weight: bold;
+  width: 75px;
+  color: black;
+  border: 3px solid black;
+  margin-left: 20px;
 }
 
 #edux .school,
 .bootcamp {
   border: 4px solid #33CCCC;
   width: 400px;
+  height: 240px;
   margin-left: 60px;
 }
 
@@ -104,8 +161,9 @@ h1 {
 h2 {
   text-align: center;
   background-color: #EBF9F8;
-  color: turquoise;
+  color: #33cccc;
   font-weight: bold;
+  width: 100%;
 }
 
 h2 span {

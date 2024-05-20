@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <!-- CSS & JS Functionalities for the 1-player game -->
-  <script type="text/javascript" src="/backend/oneplayer.js"></script>
-  <link rel="stylesheet" href="/design/oneplayer.css">
+  <!-- CSS Design -->
+  <link rel="stylesheet" href="/design/c1player.css">
+  <link rel="stylesheet" href="/design/menu.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
@@ -27,9 +27,11 @@
       <b><span class="font-primary">T</span>oe</b>
     </h1>
   </div>
-
-  <br><br>
   <section id="menu">
+    <h1 style="text-align: center; font-family: Arial;">
+      <span class="font-primary"><b>M</b></span><b>ain</b>
+      <span class="font-primary"><b>M</b></span><b>enu</b>
+    </h1>
     <a href="/index.html" style="--clr:#33cccc">
       <span class="font-primary"><b>Home</b></span>
       <i></i>
@@ -40,8 +42,22 @@
       <i></i>
     </a>
   </section>
+  <section id="menu">
+    <h1 style="text-align: center; font-family: Arial;">
+      <span class="font-primary"><b>G</b></span><b>ame</b>
+      <span class="font-primary"><b>M</b></span><b>enu</b>
+    </h1>
+    <a href="checkbox.html" style="--clr:#33cccc">
+      <span class="font-primary"><b>Check Box</b></span>
+      <i></i>
+    </a>
 
-  <br><br>
+    <a href="dragndrop.html" style="--clr:#33cccc">
+      <span class="font-primary"><b>Drag n Drop</b></span>
+      <i></i>
+    </a>
+  </section>
+
 
   <div class="score">Player:<span class="playerScore">0</span> Computer:<span class="computerScore">0</span></div>
 
@@ -64,23 +80,7 @@
     Message: <span class="message-text">&nbsp;</span>
   </div>
 </body>
-<br><br>
-
-<h2 style="font-family: Arial; 
-         text-align: center; 
-         font-size: 30px;
-         background-color: #ebf9f8;">Try my other game versions:</h2>
-<section id="menu">
-  <br>
-  <a href="checkbox.html" style="--clr:#33cccc">
-    <span class="font-primary"><b>Check Box</b></span>
-    <i></i>
-  </a>
-
-  <a href="dragndrop.html" style="--clr:#33cccc">
-    <span class="font-primary"><b>Drag n Drop</b></span>
-    <i></i>
-  </a>
-</section>
+<!-- CSS & JS Functionalities for the 1-player game -->
+<script type="text/javascript" src="/backend/js1player.js"></script>
 
 </html>

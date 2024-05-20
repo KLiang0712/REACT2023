@@ -1,0 +1,160 @@
+/* drag and drop */
+*,
+html,
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  font-family: Arial;
+  background-color: #EBF9F8;
+  position: fixed;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#topnav h1 {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #33CCCC;
+}
+
+#dragndrop {
+  font-family: Arial;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.board {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 60px;
+}
+
+.board .dropBox {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-right: 10px solid #33CCCC;
+  border-bottom: 10px solid #33CCCC;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.board .dropBox:nth-child(3),
+.board .dropBox:nth-child(6),
+.board .dropBox:nth-child(9) {
+  border-right: none;
+}
+
+.board .dropBox:nth-child(7),
+.board .dropBox:nth-child(8),
+.board .dropBox:nth-child(9) {
+  border-bottom: none;
+}
+
+.board .dropBox div {
+  pointer-events: none;
+  scale: 1.5;
+}
+
+.drag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 420px;
+  width: 100px;
+  margin: 0 -200px 0 200px;
+  cursor: grab;
+  background: #EBF9F8;
+}
+
+.drag .dragBox {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cross {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  font-weight: bold;
+  background: #16bbce;
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #16bbce;
+  transform: rotate(45deg);
+}
+
+.circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-weight: bold;
+  border: 5px solid #33CCCC;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle::before,
+.circle::after {
+  position: absolute;
+}
+
+.reset {
+  position: absolute;
+  bottom: -300px;
+  margin-left: 60%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  border: 5px solid #33CCCC;
+  outline: none;
+  background-color: #EBF9F8;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -33,14 +33,15 @@
   <section id="home">
     <div id="topnav">
       <h1 class="header">
-        <img class="banner" src="images/icon1-1.svg" alt="banner" height="60" width="60">
+        <img class="icon" src="images/icon1-1.svg" alt="icon" height="60" width="60">
         <b><span class="font-primary">T</span>ic</b>
         <b><span class="font-primary">T</span>ac</b>
         <b><span class="font-primary">T</span>oe</b>
       </h1>
+      <img src="images/logo.png" class="card-img-top" alt="techis" style="float: right; width:100px; height:100px;">
     </div>
-    <br><br>
-
+    <br>
+    <br>
     <h1 class="name">
       <span class="font-primary"><b>K</b></span><b>ory</b>
       <span class="font-primary"><b>L</b></span><b>iang</b>
@@ -49,53 +50,35 @@
       <img class="square_circle" src="images/kl0712.jpg" alt="icon" height="300" width="300">
     </center>
     <h1 class="theme">
-      <span class="font-primary"><b>T</b></span><b>ic</b>
-      <span class="font-primary"><b>T</b></span><b>ac</b>
-      <span class="font-primary"><b>T</b></span><b>oe</b><br>
+      <span class="font-primary"><b>M</b></span><b>y</b>
       <span class="font-primary"><b>G</b></span><b>ame</b>
       <span class="font-primary"><b>P</b></span><b>ackage</b>
     </h1>
-    <br><br>
-
-    <a href=#about>
-      <img src="images/aces/about.svg" id="aces-icon" alt="about">
-    </a>
-
-    <a href=#content>
-      <img src="images/aces/contact.svg" id="aces-icon" alt="contact">
-    </a>
-
-    <a href=#edux>
-      <img src="images/aces/education.svg" id="aces-icon" alt="edux">
-    </a>
-
-    <a href=#skills>
-      <img src="images/aces/skills.svg" id="aces-icon" alt="skills">
-    </a>
   </section>
-
-  <br>
 
   <!-- About -->
   <section id="about">
-    <h2><span class="font-primary"><b>A</b></span><b>bout</b></h2>
+    <h2>
+      <img src="images/aces/about.svg" alt="edux" height="60" width="60">
+      <span class="font-primary"><b>A</b></span><b>bout</b>
+    </h2>
 
     <h1 class="profile">
-      <span class="font-primary"><b>C</b></span><b>ontact</b>
+      <span class="font-primary"><b>C</b></span><b>onnection</b>
+      <span class="font-primary"><b>F</b></span><b>orum</b>
     </h1>
     <div class="contact-icons">
       <a href="mailto:kory.liang@outlook.com" class='email' ?subject=Feedback&body="Message" target="_blank">
-        <span style='font-size: 70px; border: 5px solid #33CCCC;'>&#128231;</span>
+        <img src="images/edux/email.svg" alt="email" style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
       </a>
 
       <a href="https://www.linkedin.com/in/kory-liang" class='linkedin' target="_blank">
-        <img src="images/edux/linkedin0712.svg" alt="LinkedIn"
+        <img src="images/edux/linkedin.svg" alt="LinkedIn"
           style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
       </a>
 
       <a href="https://github.com/KLiang0712" class='github' target="_blank">
-        <img src="images/edux/github0712.svg" alt="GitHub"
-          style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
+        <img src="images/edux/github.svg" alt="GitHub" style="width: 80px; height: 80px; border: 4px solid #33CCCC;">
       </a>
     </div>
     <br>
@@ -117,15 +100,16 @@
       d.).
     </p>
 
-    <p>For more information, come check out my essay:</p>
-    <a href="essay.html" class="btn btn-primary" id="card-essay">Essay</a>
+    <p>For more information, come check out my essay under "Content : Exploration of Tic Tac Toe -> Essay"</p>
   </section>
-
   <br>
   <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links -->
 
   <section id="content">
-    <h2><span class="font-primary"><b>C</b></span><b>ontent</b></h2>
+    <h2>
+      <img src="images/aces/contact.svg" alt="edux" height="60" width="60">
+      <span class="font-primary"><b>C</b></span><b>ontent</b>
+    </h2>
     <!-- Exhibit -->
     <div class="row">
       <div class="col-sm-6">
@@ -135,14 +119,17 @@
           </div>
 
           <div class="card-body">
-            <h5 class="card-title"><b>Tic Tac Toe Repository</b></h5>
-            <h6 class="card-subtitle mb-2 text-muted"><b>Available Download on GitHub :)</b></h6>
-            <a href="https://github.com/KLiang0712/TICTACTOE0712" target="_blank" class="btn btn-primary"
-              id="repository" style="background-color: gray; font-weight: bold;">GitHub</a>
+            <h5 class="card-title"><b>Exploration of Tic Tac Toe</b></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><b>Essay & Available GitHub Download :)</b></h6>
+            <a href="https://github.com/KLiang0712/TICTACTOE0712" target="_blank" class="btn btn-primary" id="explore1"
+              style="background-color: white; color: black; font-weight: bold; border: 3px solid black; margin-left: 20px;">GitHub</a>
+            <br><br>
+            <a href="essay.html" class="btn btn-primary" id="essay1" style="background-color: #ebf9f8;">Essay
+            </a>
           </div>
         </div>
       </div>
-
+      <br>
       <div class="col-sm-6">
         <div class="website">
           <div class="cardtheme" style="margin-left: 150px;">
@@ -150,11 +137,13 @@
           </div>
 
           <div class="card-body">
-            <h5 class="card-title"><b>Explore My Project!</b></h5>
-            <h6 class="card-subtitle mb-2 text-muted"><b>Tic Tac Toe</b></h6>
+            <h5 class="card-title"><b>Game Directory</b></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><b>Enjoy playing Tic-Tac-Toe...</b>
+            </h6>
             <a href="exhibit/oneplayer.html" class="btn btn-primary" id="card-link1">1 player</a>
+            <br><br>
             <a href="exhibit/checkbox.html" class="btn btn-primary" id="card-link2">Check Box</a>
-            <a href="exhibit/dragndrop.html" class="btn btn-primary" id="card-link2">Drag n Drop</a>
+            <a href="exhibit/dragndrop.html" class="btn btn-primary" id="card-link3">Drag n Drop</a>
           </div>
         </div>
       </div>
@@ -164,27 +153,34 @@
 
   <section id="edux">
     <!-- Source: https://getbootstrap.com/docs/5.0/components/card/#using-grid-markup -->
-    <h2><span class="font-primary"><b>E</b></span><b>ducation</b></h2>
+    <h2>
+      <img src="images/aces/education.svg" alt="edux" height="60" width="60">
+      <span class="font-primary"><b>E</b></span><b>ducation</b>
+    </h2>
+
     <div class="row">
       <div class="col-sm-6">
         <div class="school">
-          <img src="images/edux/school.svg" class="card-img-top" alt="college" style="width:100px; height:100px;">
+          <img src="images/edux/school.svg" class="card-img-top" alt="college"
+            style=" margin-left: 120px; width:100px; height:100px;">
           <div class="card-body">
             <b>
-              <h5 class="card-title" style="font-weight: bold;">Rasmussen University</h5>
-              <p class="card-text">Bachelor's of Science in Computer Science<br>August 2018 - September 2020</p>
+              <h5 class="card-title" style="font-weight: bold; margin-left: 20px;">Rasmussen University</h5>
+              <p class="card-text" style="margin-left: 20px;">Bachelor's of Science in Computer Science<br>August 2018
+                - September 2020</p>
             </b>
           </div>
         </div>
       </div>
-
+      <br>
       <div class="col-sm-6">
         <div class="bootcamp">
-          <img src="images/bootcamp.png" class="card-img-top" alt="techis" style="width:100px; height:100px;">
+          <img src="images/banner.png" class="card-img-top" alt="banner"
+            style="margin-left: 30px; width:350px; height:100px;">
           <div class="card-body">
             <b>
-              <h5 class="card-title" style="font-weight: bold;">TECH I.S. Bootcamp</h5>
-              <p class="card-text">Program: Web Development<br>December 2022</p>
+              <h5 class="card-title" style="font-weight: bold; margin-left: 20px;">Bootcamp</h5>
+              <p class="card-text" style="margin-left: 20px;">Program: Web Development<br>December 2022</p>
             </b>
           </div>
         </div>
@@ -195,7 +191,11 @@
   <br><br>
 
   <section id="skills">
-    <h2><span class="font-primary"><b>S</b></span><b>kills</b></h2>
+    <h2>
+      <img src="images/aces/skills.svg" alt="edux" height="60" width="60">
+      <span class="font-primary"><b>S</b></span><b>kills</b>
+    </h2>
+
     <h6>
       <img src="images/skills/html5.svg" class="card-img-top" id="skills1-1" alt="html5">
 
