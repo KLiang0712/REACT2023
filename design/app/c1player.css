@@ -5,24 +5,6 @@ body {
   font-weight: bold;
 }
 
-#topnav {
-  font-family: Arial;
-  background-color: #EBF9F8;
-  margin-top: -20px;
-}
-
-#topnav h1 {
-  margin-left: 60px;
-  font-size: 30px;
-}
-
-h1 span {
-  font-size: 30px;
-  font-family: Arial;
-  font-weight: bold;
-  color: #33CCCC;
-}
-
 .text-center {
   font-family: Arial;
   text-align: center;

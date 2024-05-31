@@ -7,21 +7,6 @@ body {
   padding: 0;
 }
 
-#topnav {
-  font-family: Arial;
-  background-color: #EBF9F8;
-  position: fixed;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-#topnav h1 {
-  margin-left: 60px;
-  font-size: 30px;
-}
-
 h2 {
   color: black;
   text-align: center;
@@ -29,10 +14,7 @@ h2 {
   margin-top: 10%;
 }
 
-h1 span {
-  font-weight: bold;
-  color: #33CCCC;
-}
+
 
 #dragndrop {
   font-family: Arial;
@@ -133,7 +115,7 @@ h1 span {
   height: 50px;
   display: flex;
   font-weight: bold;
-  border: 5px solid #33CCCC;
+  border: 6px solid #16bbce;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -144,17 +126,11 @@ h1 span {
   position: absolute;
 }
 
-.reset {
+#reset {
   position: absolute;
   bottom: -300px;
   margin-left: 60%;
   transform: translateX(-50%);
   padding: 10px 25px;
-  border: 5px solid #33CCCC;
   outline: none;
-  background-color: #EBF9F8;
-  color: black;
-  font-weight: bold;
-  font-size: 15px;
-  cursor: pointer;
 }

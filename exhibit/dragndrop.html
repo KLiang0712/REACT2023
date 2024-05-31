@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Styling  -->
-  <link href="/design/dragndrop.css" rel="stylesheet" type="text/css">
-  <link href="/design/menu.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/design/app/dragndrop.css">
+  <link rel="stylesheet" type="text/css" href="/design/setup.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <div id="topnav" style="width: 100%;">
+  <div id="topnav" style="position: fixed;">
     <h1 class="header">
       <img class="icon" src="/images/icon1-1.svg" alt="icon" height="60" width="60">
       <b><span class="font-primary">T</span>ic</b>
@@ -42,34 +42,33 @@
   <br>
   <br>
   <br>
-  <section id="menu" style="margin-left: 500px;">
+  <section id="menu">
     <h1 style="font-size: 30px; text-align: center;">
       <span class="font-primary"><b>M</b></span><b>ain</b>
       <span class="font-primary"><b>M</b></span><b>enu</b>
     </h1>
 
-    <a href="/index.html" style="--clr:#33cccc">
+    <a href="/index.html" style="--clr:#16bbce">
       <span class="font-primary"><b>Home</b></span>
       <i></i>
     </a>
 
-    <a href="/essay.html" style="--clr:#33cccc">
+    <a href="/essay.html" style="--clr:#16bbce">
       <span class="font-primary"><b>Essay</b></span>
       <i></i>
     </a>
   </section>
 
-  <section id="menu" style="margin-left: 500px;">
+  <section id="menu">
     <h1 style="font-size: 30px; text-align: center; font-family: Arial;">
-      <span class="font-primary"><b>G</b></span><b>ame</b>
-      <span class="font-primary"><b>M</b></span><b>enu</b>
+      <span class="font-primary"><b>G</b></span><b>ames</b>
     </h1>
-    <a href="oneplayer.html" style="--clr:#33cccc">
+    <a href="oneplayer.html" style="--clr:#16bbce">
       <span class="font-primary"><b>1 Player</b></span>
       <i></i>
     </a>
 
-    <a href="checkbox.html" style="--clr:#33cccc">
+    <a href="checkbox.html" style="--clr:#16bbce">
       <span class="font-primary"><b>Check Box</b></span>
       <i></i>
     </a>
@@ -134,7 +133,11 @@
         <div class="circle" draggable="true" ondragstart="drag(event)" id="circle5"></div>
       </div>
     </div>
-    <button class="reset" onclick="reset(event)" style="font-size: 20px;">Replay</button>
+
+    <button id="reset" onclick="reset(event)">
+      <h1 style="text-align: center; height: 40px; font-size: 30px;"><span
+          class="font-primary"><b>R</b></span><b>eplay</b></h1>
+    </button>
   </section>
 
 
