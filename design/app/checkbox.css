@@ -27,18 +27,10 @@ h2 {
   margin-top: 10%;
 }
 
-h1 span {
-  font-weight: bold;
-  color: #33CCCC;
-}
-
 .display {
   background-color: #ebf9f8;
-  border: 5px solid #33CCCC;
-  color: black;
-  width: 300px;
-  margin-left: 530px;
-  font-size: 30px;
+  color: #16bbce;
+  font-size: 40px;
   text-align: center;
   font-weight: bold;
 }
@@ -56,7 +48,7 @@ h1 span {
 }
 
 .tile {
-  border: 5px solid #33CCCC;
+  border: 5px solid #16bbce;
   min-width: 100px;
   min-height: 100px;
   display: flex;
@@ -69,5 +61,5 @@ h1 span {
 .playerX,
 .playerO {
   font-weight: bold;
-  color: #33CCCC;
+  color: #16bbce;
 }

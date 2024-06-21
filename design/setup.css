@@ -1,12 +1,15 @@
 /* topnav */
 #topnav {
-  font-family: Arial;
   background-color: #EBF9F8;
   width: 100%;
 }
 
 #topnav h1 {
   margin-left: 60px;
+  font-size: 30px;
+}
+
+h1 {
   font-size: 30px;
 }
 
@@ -20,24 +23,26 @@ h1 span {
 /* menu */
 #menu {
   display: flex;
-  margin-left: 600px;
+  margin-left: 200px;
   min-height: 100px;
   flex-direction: row;
-  gap: 40px;
+  gap: 50px;
+}
+
+#menu h1 {
+  text-align: center; 
+  font-family: Arial; 
 }
 
 #menu a {
   position: relative;
-  background: ebf9f8;
+  background: #ebf9f8;
   color: black;
   text-decoration: none;
   font-family: arial;
   text-align: center;
-  height: 60px;
-  font-size: 30px;
+  width: 120px;
   font-weight: bold;
-  letter-spacing: 0.1em;
-
   padding: 10px 30px;
   transition: 0.5s;
 }
