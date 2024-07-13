@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div id="topnav" style="margin-top: -20px;">
+  <div id="topnav" style="margin-top: 20px;">
     <h1 class="header">
       <img class="icon" src="/images/icon1-1.svg" alt="icon" height="60" width="60">
       <b><span class="font-primary">T</span>ic</b>
@@ -24,18 +24,19 @@
       <b><span class="font-primary">T</span>oe</b>
     </h1>
   </div>
+  <br><br>
   <section id="menu" style="font-size: 24px;">
     <h1>
       <span class="font-primary"><b>M</b></span><b>ain</b>
       <span class="font-primary"><b>M</b></span><b>enu</b>
     </h1>
 
-    <a href="/index.html" style="--clr:#16bbce; height: 40px;">
+    <a href="/index.html" style="--clr:#16bbce; height: 60px;">
       <span class="font-primary"><b>Home</b></span>
       <i></i>
     </a>
 
-    <a href="/essay.html" style="--clr:#16bbce; height: 40px;">
+    <a href="/essay.html" style="--clr:#16bbce; height: 60px;">
       <span class="font-primary"><b>Essay</b></span>
       <i></i>
     </a>
@@ -43,42 +44,39 @@
   <section id="menu" style="font-size: 24px;">
     <h1><span class="font-primary"><b>G</b></span><b>ames</b></h1>
 
-    <a href="oneplayer.html" style="--clr:#16bbce; height: 60px;">
+    <a href="oneplayer.html" style="--clr:#16bbce; height: 60px; width: 160px;">
       <span class="font-primary"><b>1 Player</b></span>
       <i></i>
     </a>
 
-    <a href="dragndrop.html" style="--clr:#16bbce; height: 60px;">
+    <a href="dragndrop.html" style="--clr:#16bbce; height: 60px; width: 240px;">
       <span class="font-primary"><b>Drag-n-Drop</b></span>
       <i></i>
     </a>
   </section>
-  <br>
-  <section id="checkbox">
-    <main class="background">
-      <section class="display">
-        Player <span class="display-player playerX" style="color: #16bbce;">X</span>'s turn
-      </section>
+  <br><br>
+  <section id="game">
+    <section class="container">
+      <!-- Tic Tac Toe grid = 9 Button Options -->
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
 
-      <section class="container">
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-      </section>
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
 
-      <section class="display announcer hide" style="color: #16bbce;"></section>
-      <br><br>
-      <button id="reset">
-        <h1 style="text-align: center;"><span class="font-primary"><b>R</b></span><b>eplay</b></h1>
-      </button>
-    </main>
+      <button class="tile"></button>
+      <button class="tile"></button>
+      <button class="tile"></button>
+    </section>
+    <button id="reset">Reset</button>
   </section>
+
+  <div class="popup hide">
+    <p id="message">Sample Message</p>
+    <button id="new-game">New Game</button>
+  </div>
   <!-- JS Functionality for the 2-player game -->
   <script type="text/javascript" src="/backend/js2players.js"></script>
 </body>

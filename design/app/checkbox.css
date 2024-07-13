@@ -1,65 +1,85 @@
-/* checkbox */
-*,
-html,
-body {
-  font-family: arial;
-  margin: 0;
+* {
   padding: 0;
-}
-
-.background {
-  height: 800px;
-  padding-top: 1px;
-}
-
-.title h1 {
-  color: black;
-  background-color: #EBF9F8;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 10%;
-}
-
-h2 {
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10%;
-}
-
-.display {
-  background-color: #ebf9f8;
-  color: #16bbce;
-  font-size: 40px;
-  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
   font-weight: bold;
 }
 
-.hide {
-  display: none;
+body {
+  background: linear-gradient(100deg, #ebf9f8, turquoise);
+}
+
+#game {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  top: 50%; 
+  left: 50%;
 }
 
 .container {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 33% 33% 33%;
-  max-width: 300px;
+   width: 330px;
+   height: 330px;
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+   grid-template-rows: 33% 33% 33%;
+   flex-wrap: wrap;
 }
 
 .tile {
-  border: 5px solid #16bbce;
-  min-width: 100px;
-  min-height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  cursor: pointer;
+  background: #ffffff;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #16BBCE;
+  border-radius: 10px;
+  font-size: 40px;
+  color: #16bbce;
+  box-shadow: 0 0 15px turquoise;
 }
 
-.playerX,
-.playerO {
+#reset {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #EBF9F8;
+  color: black;
   font-weight: bold;
-  color: #16bbce;
+  border: 5px solid #33cccc;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  display: block;
+}
+
+.popup {
+  background: linear-gradient(100deg, #ebf9f8, turquoise);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 12vmin;
+}
+
+#new-game {
+  font-size: 0.6em;
+  padding: 0.5em 1em;
+  background-color: #ebf9f8;
+  color: #000000;
+  border-radius: 0.2em;
+  border: none;
+}
+
+#message {
+  color: black;
+  text-align: center;
+  font-size: 1em;
+}
+
+.popup.hide {
+  display: none;
 }
