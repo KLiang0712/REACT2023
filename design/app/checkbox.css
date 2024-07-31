@@ -7,15 +7,15 @@
 }
 
 body {
-  background: linear-gradient(100deg, #ebf9f8, turquoise);
+  background: linear-gradient(100deg, #ebf9f8, #37C3BF);
 }
 
 #game {
   position: absolute;
   transform: translate(-50%, -50%);
-  margin-top: 200px;
-  top: 50%; 
-  left: 50%;
+  margin-top: 300px;
+  top: 60%; 
+  left: 30%;
 }
 
 .container {
@@ -35,7 +35,7 @@ body {
   border-radius: 10px;
   font-size: 40px;
   color: #16bbce;
-  box-shadow: 0 0 15px turquoise;
+  box-shadow: 0 0 15px #37C3BF;
 }
 
 #reset {

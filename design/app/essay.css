@@ -6,16 +6,6 @@ body {
   padding: 0;
 }
 
-#topnav {
-  font-family: Arial;
-  background-color: #EBF9F8;
-}
-
-#topnav h1 {
-  margin-left: 60px;
-  font-size: 30px;
-}
-
 #topnav .homepage {
   float: right;
   font-weight: bold;
@@ -34,7 +24,6 @@ body {
 
 /* content */
 h1 {
-  font-size: 30px;
   font-weight: bold;
   background-color: #EBF9F8;
 }
