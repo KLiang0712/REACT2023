@@ -8,22 +8,20 @@ body {
 
 .essaypage {
   float: left;
-  width: 200px;
-  margin-left: 60px;
+  width: 900px;
+  margin-left: 30px;
   font-weight: bold;
   background-color: #ebf9f8;
-  border: 4px solid #33CCCC;
-  margin-right: 10px;
+  border: 3px solid #16BBCE;
+  margin-right: 30px;
   text-decoration: none;
   color: black;
-  border-radius: 4px;
-
+  border-radius: 3px;
 }
 
 .name,
 .theme {
   text-align: center;
-  margin-right: 160px;
 }
 
 h1 span {
@@ -43,9 +41,9 @@ h1 span {
 #aces-icon {
   text-decoration: none;
   margin-left: 100px;
-  width: 80px;
-  height: 80px;
-  border: 4px solid #16BBCE;
+  width: 75px;
+  height: 75px;
+  border: 5px solid #16BBCE;
 }
 
 /* ACES */
@@ -64,9 +62,10 @@ h1 {
 
 #about .github,
 .email,
-.linkedin {
+.linkedin, .dev2 {
   text-decoration: none;
   margin-left: 60px;
+  padding-right: -10px;
 }
 
 #content .content-icons {
