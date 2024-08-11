@@ -19,9 +19,25 @@ body {
   border-radius: 3px;
 }
 
-.name,
+.techis-logo {
+  float: right; 
+  width:100px; 
+  height:100px;
+}
+
+.name {
+  text-align: center;
+  margin-left: 50px;
+}
+
 .theme {
   text-align: center;
+  margin-left: 10px;
+}
+
+.square_circle {
+  margin-left: 50px;
+  border-radius: 50%;
 }
 
 h1 span {
@@ -60,16 +76,11 @@ h1 {
   margin-left: 60px;
 }
 
-#about .github,
-.email,
-.linkedin, .dev2 {
-  text-decoration: none;
+#about #contact-icons img {
   margin-left: 60px;
-  padding-right: -10px;
-}
-
-#content .content-icons {
-  flex-direction: row;
+  border: 3px solid #16BBCE;
+  width: 75px;
+  height: 75px; 
 }
 
 #content .repository,
@@ -113,7 +124,7 @@ h6 {
   margin-left: 60px;
 }
 
-#skills1-1 {
+.skills1 {
   margin-left: 60px;
   width: 75px;
   height: 75px;
@@ -131,6 +142,3 @@ h2 span {
   color: black;
 }
 
-.square_circle {
-  border-radius: 50%;
-}
