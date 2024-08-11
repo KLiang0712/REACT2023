@@ -14,3 +14,8 @@ The game is Tic-Tac-Toe and the package comes with multiple versions either in 1
 2. Multiple versions of how to play the game on any device:<br>
    a. 1 player: play Tic-Tac-Toe with the computer in checkbox (click in box) form.<br>
    b. 2 player games: either in checkbox (click in box) or drag-icon-&-drop in the box format.<br> 
+<!--
+3. A 3x3 ReactJS Tic-Tac-Toe Game. 
+4. A 3x3 Python Tic-Tac-Toe Game.
+5. A Web Development Package containing X-by-X grids where (4 <= X < 16). 
+-->
