@@ -23,10 +23,9 @@ A game where 1 player vs the computer is available in this mini portfolio.
 
 # References
 Provided are some generic resources for prepaing this project<br>in addition to the research references:<br>
-Bootstrap Cards V5.0 Retrieved from https://getbootstrap.com/docs/5.0/components/card/<br>
-Code Pen Retrieved from https://codepen.io/<br> 
-Coding Artist Web Retrieved from https://codingartistweb.com/<br> 
-<br>
+Bootstrap Cards V5.0 Retrieved from https://getbootstrap.com/docs/5.0/components/card/<br><br>
+Code Pen Retrieved from https://codepen.io/<br><br>
+Coding Artist Web Retrieved from https://codingartistweb.com/<br><br>
 SVG Repository Retrieved from https://www.svgrepo.com/
 
 <!-- # Sample Format --> 
